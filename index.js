@@ -11,5 +11,6 @@ exports.get = function(event, context, callback) {
     headers: {'content-type': 'text/html'}
   };
 
+    var x = 20;
   callback(null, result);
 };
